@@ -15,13 +15,24 @@
   },
   "main": "./lib/passport-google-token",
   "dependencies": {
-    "pkginfo": "0.2.x",
-    "passport-oauth": "^1.0.0"
+    "google-auth-library": "^0.11.0",
+    "pkginfo": "0.2.x"
   },
-  "engines": { "node": ">= 0.4.0" },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
-  } ],
-  "keywords": ["passport", "google", "auth", "authn", "authentication", "identity"]
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "passport",
+    "google",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ]
 }
